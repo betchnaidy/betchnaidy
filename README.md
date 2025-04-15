@@ -1,62 +1,74 @@
-<!-- Adicione esse CSS no topo do README -->
-<style>
-  /* Cores e Fontes Futuristas */
-  :root {
-    --neon-cyan: #0ff;
-    --deep-purple: #7024f9;
-    --metalic-silver: #c0c0c0;
-    --void-black: #000;
-    font-family: 'Orbitron', sans-serif;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Futuristic README</title>
+  <style>
+    /* Exemplo de estilo futurista */
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #1c1c1c;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      color: #00ffff;
+      text-align: center;
+      animation: glow 1.5s ease-in-out infinite alternate;
+    }
+    @keyframes glow {
+      0% { text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff; }
+      100% { text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff; }
+    }
+    .tab {
+      display: flex;
+      gap: 10px;
+      cursor: pointer;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .tab:hover {
+      color: #ff6600;
+    }
+    .content {
+      display: none;
+    }
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
 
-  /* Animação do Título */
-  @keyframes glow {
-    0% { text-shadow: 0 0 10px var(--neon-cyan); }
-    100% { text-shadow: 0 0 20px var(--neon-cyan), 0 0 30px var(--deep-purple); }
-  }
+  <h1>Project: Futuristic README</h1>
 
-  /* Estrutura Principal */
-  .dashboard {
-    background: linear-gradient(45deg, #0a0a0a 0%, #1a1a1a 100%);
-    color: var(--metalic-silver);
-    padding: 2rem;
-    border-radius: 15px;
-    border: 1px solid var(--neon-cyan);
-  }
+  <div class="tab" onclick="showContent('overview')">Overview</div>
+  <div class="tab" onclick="showContent('installation')">Installation</div>
+  <div class="tab" onclick="showContent('features')">Features</div>
 
-  /* Componentes Interativos */
-  .tab:hover {
-    transform: scale(1.1);
-    transition: 0.3s all cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  <div id="overview" class="content">
+    <h2>Overview</h2>
+    <p>This project aims to demonstrate futuristic README design with modern web technologies.</p>
+  </div>
+  <div id="installation" class="content">
+    <h2>Installation</h2>
+    <p>Install using npm: <code>npm install project-name</code></p>
+  </div>
+  <div id="features" class="content">
+    <h2>Features</h2>
+    <p>Includes animations, dynamic content, and modern UI elements.</p>
+  </div>
 
-</style>
+  <script>
+    function showContent(tabId) {
+      let contents = document.querySelectorAll('.content');
+      contents.forEach(content => content.classList.remove('active'));
 
-<div class="dashboard">
+      let activeContent = document.getElementById(tabId);
+      activeContent.classList.add('active');
+    }
+  </script>
 
-# ![Logo](https://i.ibb.co/7nL7YtH/logo.gif) <span style="animation: glow 2s infinite alternate">NeuroSync 3.0</span>  
-> **Revolucionando a Interface Cérebro-Máquina em 2025**
-
----
-
-## 🚀 Visão Geral
-<div class="fade-in">
-  ![Demo](https://i.ibb.co/XYtsL9y/demo.gif)
-</div>
-
----
-
-## 🔮 Funcionalidades
-| Recurso         | Descrição Animada |
-|-----------------|-------------------|
-| 🧠 Neural API   | ![Wave](https://i.ibb.co/0n1Lk2j/wave.gif) |
-| ⚡ Quantum Core | ![Particles](https://i.ibb.co/7Yh3k3T/particles.gif) |
-
----
-
-## 🛠 Tecnologias
-```mermaid
-graph TD
-  A[Quantum ML] --> B((NeuroSync Engine))
-  B --> C{Blockchain API}
-  C --> D[Web4 Interface]
+</body>
+</html>
