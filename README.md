@@ -1,71 +1,54 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Roboto&weight=600&size=30&duration=4000&pause=1000&color=38BCAE&center=true&vCenter=true&width=500&lines=👋+Olá,+Eu+sou+Betchnaidy;💻+Front-end+Developer;🚀+Apaixonado+por+Tecnologia" alt="Animated Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&weight=600&size=22&duration=4000&pause=1000&color=7E3ACE&center=true&vCenter=true&width=435&lines=%F0%9F%92%BB+Full-Stack+Developer;%F0%9F%93%B1+Tech+Enthusiast;%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB+Open+Source+Contributor" alt="Animated Header">
 </p>
 
 <div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=betchnaidy&style=flat-square&color=blueviolet)
-  [![Twitter Follow](https://img.shields.io/badge/Follow-%40ydhntb-1DA1F2?logo=twitter&style=flat-square)](https://twitter.com/e)
-  ![GitHub Followers](https://img.shields.io/github/followers/betchnaidy?logo=github&style=flat-square)
+
+  🔄 **Active Now** \
+  ![Profile Views](https://komarev.com/ghpvc/?username=betchnaidy&style=flat-square&label=PROFILE+VIEWS&color=6C4A9D) \
+  ![GitHub Last Commit](https://img.shields.io/github/last-commit/betchnaidy/betchnaidy?label=LAST+UPDATE&style=flat-square&color=9C7CD6)
 
 </div>
 
 ---
 
-### 🛠️ **Tecnologias & Ferramentas**
+### 🎮 **Dev Dashboard**
 
-<div align="center">
-  
-  #### 📱 Mobile
-  ![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&logoColor=white)
-  ![Android](https://img.shields.io/badge/-Android-3DDC84?logo=android&logoColor=white)
-  
-  #### 🌐 Front-end
-  ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
-
-  #### 💻 Back-end
-  ![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white)
-  ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white)
-
-  #### 🎮 Game Dev
-  ![Unity](https://img.shields.io/badge/-Unity-000000?logo=unity&logoColor=white)
-  ![C#](https://img.shields.io/badge/-C%23-239120?logo=c-sharp&logoColor=white)
-
-</div>
-
----
-
-### 📊 **Estatísticas do GitHub**
-
-<div align="center">
-
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=betchnaidy&show_icons=true&theme=radical&hide_border=true)
-  
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=betchnaidy&layout=compact&theme=nightowl&hide_border=true)
-
-  ![Streak Stats](https://streak-stats.demolab.com/?user=betchnaidy&theme=nightowl&hide_border=true)
-
-</div>
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=betchnaidy&show_icons=true&theme=nightowl&hide_border=true&include_all_commits=true" />
+      </a>
+    </td>
+    <td>
+      <a href="https://git.io/streak-stats">
+        <img src="https://streak-stats.demolab.com?user=betchnaidy&theme=nightowl&hide_border=true" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <a href="https://github.com/anuraghazra/github-readme-stats">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=betchnaidy&layout=compact&theme=nightowl&hide_border=true&langs_count=8" />
+      </a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🌐 **Conecte-se Comigo**
+### ⚡ **Tech Matrix**
 
-<div align="center">
-  
-  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?logo=instagram&logoColor=white)](https://instagram.com/ydhntb)
-  [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2?logo=twitter&logoColor=white)](https://twitter.com/e)
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/Betchnaidy)
+```scss
+// Mobile Dev
+[![Flutter](https://img.shields.io/badge/-Flutter-02569B?logo=flutter&style=for-the-badge)](https://flutter.dev)
+[![Android](https://img.shields.io/badge/-Android-3DDC84?logo=android&style=for-the-badge)](https://developer.android.com)
 
-</div>
+// Web Stack
+[![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=000&style=for-the-badge)](https://react.dev)
 
----
-
-<div align="center">
-  
-  ![Snake Animation](https://github.com/betchnaidy/betchnaidy/blob/output/github-contribution-grid-snake.svg)
-
-</div>
+// Backend
+[![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&style=for-the-badge)](https://www.python.org)
+[![Node.js](https://img.shields.io/badge/-Node.js-339933?logo=node.js&style=for-the-badge)](https://nodejs.org)
